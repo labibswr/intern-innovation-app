@@ -102,17 +102,6 @@ Always use `npx expo install` instead of `npm install` for Expo-compatible packa
 ```bash
 npx expo install expo-image-picker
 ```
-
----
-
-## 🧩 Team Roles
-
-| Role | Responsibility |
-|------|---------------|
-| **Frontend / Architect** | App shell, all screens, navigation, global state, mock services |
-| **AI Teammate** | Replace `aiService.js` with real vision model endpoint |
-| **Weather Teammate** | Replace `weatherApi.js` with real localized weather data |
-
 ---
 
 ## 🔌 Plugging In Real Services
