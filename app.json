@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "InternInnovationApp",
+    "slug": "InternInnovationApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Used to verify your home safety steps",
+        "NSPhotoLibraryUsageDescription": "Used to upload photos for AI verification"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    }
+  }
+}
