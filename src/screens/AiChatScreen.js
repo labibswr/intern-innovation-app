@@ -87,7 +87,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#f0f4fb',
   },
   chatContainer: {
-    padding: 20,
+    paddingTop: 70,
+    paddingHorizontal: 24,
+    paddingBottom: 32,
   },
   messageRow: {
     marginBottom: 14,

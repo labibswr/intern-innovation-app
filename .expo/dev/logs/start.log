@@ -46,3 +46,80 @@
 {"_e":"metro:bundling:done","_t":1780578935357,"id":"1","total":811,"ms":3956.552333}
 {"_e":"metro:client_log","_t":1780578935552,"level":"warn","data":["The global process.env.EXPO_OS is not defined. This should be inlined by babel-preset-expo during transformation."]}
 {"_e":"metro:client_log","_t":1780578935554,"level":"error","data":["[Invariant Violation: \"main\" has not been registered. This can happen if:\n* Metro (the local dev server) is run from the wrong folder. Check if Metro is running, stop it and restart it in the current project.\n* A module failed to load due to an error and `AppRegistry.registerComponent` wasn't called.]"]}
+{"_e":"root:init","_t":1780579824599,"format":"v0-jsonl","version":"56.1.13"}
+{"_e":"env:mode","_t":1780579824600,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1780579824600,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1780579824713,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1780579824916,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1780579825350,"atlas":false,"workers":7,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1780579830349,"id":"1","platform":"ios","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1780579830350,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1780579830353,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1780579830453,"id":"1","progress":0.6173469387755102,"total":462,"current":363}
+{"_e":"metro:bundling:progress","_t":1780579830558,"id":"1","progress":0.999,"total":811,"current":811}
+{"_e":"metro:bundling:done","_t":1780579830574,"id":"1","total":811,"ms":224.8695}
+{"_e":"metro:client_log","_t":1780579830727,"level":"warn","data":["The global process.env.EXPO_OS is not defined. This should be inlined by babel-preset-expo during transformation."]}
+{"_e":"metro:client_log","_t":1780579830728,"level":"error","data":["[Invariant Violation: \"main\" has not been registered. This can happen if:\n* Metro (the local dev server) is run from the wrong folder. Check if Metro is running, stop it and restart it in the current project.\n* A module failed to load due to an error and `AppRegistry.registerComponent` wasn't called.]"]}
+{"_e":"root:init","_t":1780580288498,"format":"v0-jsonl","version":"56.1.13"}
+{"_e":"env:mode","_t":1780580288499,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1780580288500,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1780580288616,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1780580288817,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1780580289343,"atlas":false,"workers":7,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1780580317949,"id":"1","platform":"ios","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1780580317950,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1780580317953,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1780580318253,"id":"1","progress":0.010000000000000002,"total":1,"current":1}
+{"_e":"metro:bundling:progress","_t":1780580318355,"id":"1","progress":0.010000000000000002,"total":97,"current":3}
+{"_e":"metro:bundling:progress","_t":1780580318473,"id":"1","progress":0.010000000000000002,"total":102,"current":5}
+{"_e":"metro:bundling:progress","_t":1780580318586,"id":"1","progress":0.010341855788566506,"total":118,"current":12}
+{"_e":"metro:bundling:progress","_t":1780580318697,"id":"1","progress":0.01820357772738725,"total":126,"current":17}
+{"_e":"metro:bundling:progress","_t":1780580318813,"id":"1","progress":0.03086194302410519,"total":148,"current":26}
+{"_e":"metro:bundling:progress","_t":1780580318913,"id":"1","progress":0.07587220768044749,"total":167,"current":46}
+{"_e":"metro:bundling:progress","_t":1780580319013,"id":"1","progress":0.18010707911957166,"total":205,"current":87}
+{"_e":"metro:bundling:progress","_t":1780580319113,"id":"1","progress":0.2574622770919067,"total":270,"current":137}
+{"_e":"metro:bundling:progress","_t":1780580319214,"id":"1","progress":0.30977564552179476,"total":327,"current":182}
+{"_e":"metro:bundling:progress","_t":1780580319314,"id":"1","progress":0.357430873505883,"total":373,"current":223}
+{"_e":"metro:bundling:progress","_t":1780580319415,"id":"1","progress":0.36404978735207094,"total":416,"current":251}
+{"_e":"metro:bundling:progress","_t":1780580319515,"id":"1","progress":0.46831000870691664,"total":434,"current":297}
+{"_e":"metro:bundling:progress","_t":1780580319615,"id":"1","progress":0.5732179708784816,"total":457,"current":346}
+{"_e":"metro:bundling:progress","_t":1780580319716,"id":"1","progress":0.7126914127423823,"total":475,"current":401}
+{"_e":"metro:bundling:progress","_t":1780580319818,"id":"1","progress":0.7126914127423823,"total":529,"current":441}
+{"_e":"metro:bundling:progress","_t":1780580319920,"id":"1","progress":0.7581813317689985,"total":557,"current":485}
+{"_e":"metro:bundling:progress","_t":1780580320019,"id":"1","progress":0.7581813317689985,"total":592,"current":508}
+{"_e":"metro:bundling:progress","_t":1780580320121,"id":"1","progress":0.7581813317689985,"total":638,"current":538}
+{"_e":"metro:bundling:progress","_t":1780580320221,"id":"1","progress":0.8244194361850277,"total":652,"current":592}
+{"_e":"metro:bundling:progress","_t":1780580320322,"id":"1","progress":0.8929125035430838,"total":672,"current":635}
+{"_e":"metro:bundling:progress","_t":1780580320421,"id":"1","progress":0.9794274418594504,"total":677,"current":670}
+{"_e":"metro:bundling:progress","_t":1780580320521,"id":"1","progress":0.9941003078574562,"total":677,"current":675}
+{"_e":"metro:bundling:progress","_t":1780580320793,"id":"1","progress":0.9970479720899179,"total":677,"current":676}
+{"_e":"metro:bundling:progress","_t":1780580320894,"id":"1","progress":0.9970479720899179,"total":752,"current":719}
+{"_e":"metro:bundling:progress","_t":1780580320994,"id":"1","progress":0.9970479720899179,"total":787,"current":767}
+{"_e":"metro:bundling:progress","_t":1780580321094,"id":"1","progress":0.9975015625000001,"total":800,"current":799}
+{"_e":"metro:bundling:progress","_t":1780580321684,"id":"1","progress":0.999,"total":800,"current":800}
+{"_e":"metro:bundling:progress","_t":1780580321785,"id":"1","progress":0.999,"total":811,"current":811}
+{"_e":"metro:bundling:done","_t":1780580321851,"id":"1","total":811,"ms":3901.51825}
+{"_e":"metro:client_log","_t":1780580322034,"level":"warn","data":["The global process.env.EXPO_OS is not defined. This should be inlined by babel-preset-expo during transformation."]}
+{"_e":"metro:client_log","_t":1780580322035,"level":"error","data":["[Invariant Violation: \"main\" has not been registered. This can happen if:\n* Metro (the local dev server) is run from the wrong folder. Check if Metro is running, stop it and restart it in the current project.\n* A module failed to load due to an error and `AppRegistry.registerComponent` wasn't called.]"]}
+{"_e":"metro:bundling:started","_t":1780580370287,"id":"6","platform":"ios","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1780580370287,"id":"6","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1780580370300,"id":"6","total":1,"ms":12.906166}
+{"_e":"metro:client_log","_t":1780580370493,"level":"warn","data":["The global process.env.EXPO_OS is not defined. This should be inlined by babel-preset-expo during transformation."]}
+{"_e":"metro:client_log","_t":1780580370493,"level":"error","data":["[runtime not ready]: Error: Cannot find native module 'ExponentImagePicker'"]}
+{"_e":"metro:client_log","_t":1780580370494,"level":"error","data":["[runtime not ready]: Invariant Violation: \"main\" has not been registered. This can happen if:\n* Metro (the local dev server) is run from the wrong folder. Check if Metro is running, stop it and restart it in the current project.\n* A module failed to load due to an error and `AppRegistry.registerComponent` wasn't called."]}
+{"_e":"metro:bundling:failed","_t":1780580399868,"id":null,"message":"Unable to resolve \"expo-image-picker\" from \"src/screens/AiChatScreen.js\"\n   9 |   View,\n  10 | } from 'react-native';\n> 11 | import * as ImagePicker from 'expo-image-picker';\n     |                               ^\n  12 | import { AppContext } from '../context/AppContext';\n  13 | import { sendImageToAI } from '../services/aiService';\n  14 |","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39msrc/screens/AiChatScreen.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"expo-image-picker\"\u001b[39m\n\n\u001b[90m \u001b[39msrc/navigation/AppNavigator.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"../screens/AiChatScreen\"\u001b[39m\n\n\u001b[90m \u001b[39mApp.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./src/navigation/AppNavigator\"\u001b[39m\n\n\u001b[90m \u001b[39mindex.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./App.js\"\u001b[39m\n\n\u001b[90m \u001b[39m\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./index\"\u001b[39m\n","filename":null,"targetModuleName":"expo-image-picker","originModulePath":"src/screens/AiChatScreen.js"}
+{"_e":"metro:bundling:failed","_t":1780580400031,"id":null,"message":"Unable to resolve \"expo-image-picker\" from \"src/screens/AiChatScreen.js\"\n   9 |   View,\n  10 | } from 'react-native';\n> 11 | import * as ImagePicker from 'expo-image-picker';\n     |                               ^\n  12 | import { AppContext } from '../context/AppContext';\n  13 | import { sendImageToAI } from '../services/aiService';\n  14 |","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39msrc/screens/AiChatScreen.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"expo-image-picker\"\u001b[39m\n\n\u001b[90m \u001b[39msrc/navigation/AppNavigator.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"../screens/AiChatScreen\"\u001b[39m\n\n\u001b[90m \u001b[39mApp.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./src/navigation/AppNavigator\"\u001b[39m\n\n\u001b[90m \u001b[39mindex.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./App.js\"\u001b[39m\n\n\u001b[90m \u001b[39m\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./index\"\u001b[39m\n","filename":null,"targetModuleName":"expo-image-picker","originModulePath":"src/screens/AiChatScreen.js"}
+{"_e":"metro:bundling:failed","_t":1780580400201,"id":null,"message":"Unable to resolve \"expo-image-picker\" from \"src/screens/AiChatScreen.js\"\n   9 |   View,\n  10 | } from 'react-native';\n> 11 | import * as ImagePicker from 'expo-image-picker';\n     |                               ^\n  12 | import { AppContext } from '../context/AppContext';\n  13 | import { sendImageToAI } from '../services/aiService';\n  14 |","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39msrc/screens/AiChatScreen.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"expo-image-picker\"\u001b[39m\n\n\u001b[90m \u001b[39msrc/navigation/AppNavigator.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"../screens/AiChatScreen\"\u001b[39m\n\n\u001b[90m \u001b[39mApp.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./src/navigation/AppNavigator\"\u001b[39m\n\n\u001b[90m \u001b[39mindex.js\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./App.js\"\u001b[39m\n\n\u001b[90m \u001b[39m\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./index\"\u001b[39m\n","filename":null,"targetModuleName":"expo-image-picker","originModulePath":"src/screens/AiChatScreen.js"}
+{"_e":"metro:bundling:started","_t":1780580400894,"id":"9","platform":"ios","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1780580400894,"id":"9","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1780580400910,"id":"9","total":1,"ms":16.0355}
+{"_e":"metro:client_log","_t":1780580401061,"level":"warn","data":["The global process.env.EXPO_OS is not defined. This should be inlined by babel-preset-expo during transformation."]}
+{"_e":"metro:bundling:started","_t":1780580410367,"id":"c","platform":"ios","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1780580410367,"id":"c","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1780580410380,"id":"c","total":1,"ms":13.393375}
+{"_e":"metro:client_log","_t":1780580410581,"level":"warn","data":["The global process.env.EXPO_OS is not defined. This should be inlined by babel-preset-expo during transformation."]}
+{"_e":"metro:bundling:started","_t":1780580624634,"id":"d","platform":"ios","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1780580624635,"id":"d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1780580624667,"id":"d","total":1,"ms":32.092375}
+{"_e":"metro:client_log","_t":1780580624872,"level":"warn","data":["The global process.env.EXPO_OS is not defined. This should be inlined by babel-preset-expo during transformation."]}
+{"_e":"metro:client_log","_t":1780580936838,"level":"warn","data":["[expo-image-picker] `ImagePicker.MediaTypeOptions` have been deprecated. Use `ImagePicker.MediaType` or an array of `ImagePicker.MediaType` instead."]}
