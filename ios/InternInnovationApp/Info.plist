@@ -33,6 +33,10 @@
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>BirdyAI needs camera access to let you show your home to the AI prevention assistant during a video call.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>BirdyAI needs microphone access for the AI video call voice feature.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
 	<key>RCTNewArchEnabled</key>

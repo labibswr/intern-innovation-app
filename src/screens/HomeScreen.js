@@ -54,13 +54,13 @@ export default function HomeScreen({ navigation }) {
         <Text style={styles.profileText}>Large trees nearby: {userProfile.hasLargeTrees ? 'Yes' : 'No'}</Text>
       </View>
 
-      <TouchableOpacity style={styles.aiCard} onPress={() => navigation.navigate('AiChat')}>
-        <Text style={styles.aiTitle}>AI Prevention Assistant</Text>
-        <Text style={styles.aiBody}>Upload a photo of a preventative action and get instant validation from your assistant.</Text>
+      <TouchableOpacity style={styles.aiCard} onPress={() => navigation.navigate('AiCall')}>
+        <Text style={styles.aiTitle}>📹  AI Video Call</Text>
+        <Text style={styles.aiBody}>Start a live video call with your AI prevention assistant — show your home and get instant guidance.</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.secondaryButton} onPress={() => navigation.navigate('AiChat')}>
-        <Text style={styles.secondaryButtonText}>Open AI Assistant</Text>
+      <TouchableOpacity style={styles.secondaryButton} onPress={() => navigation.navigate('AiCall')}>
+        <Text style={styles.secondaryButtonText}>Start AI Video Call</Text>
       </TouchableOpacity>
 
       {isLoading && <Text style={styles.loadingText}>Refreshing active alerts…</Text>}

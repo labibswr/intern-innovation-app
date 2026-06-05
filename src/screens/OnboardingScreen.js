@@ -33,7 +33,7 @@ export default function OnboardingScreen({ navigation }) {
 
     const alerts = await fetchActiveAlerts(location);
     setActiveAlerts(alerts);
-    navigation.replace('Home');
+    navigation.replace('Main');
   };
 
   return (
