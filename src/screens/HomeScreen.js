@@ -7,6 +7,7 @@ import {
   ScrollView,
 } from 'react-native';
 import { AppContext } from '../context/AppContext';
+import Colors from '../theme/colors';
 import { fetchActiveAlerts } from '../services/weatherApi';
 
 export default function HomeScreen({ navigation }) {
@@ -30,6 +31,11 @@ export default function HomeScreen({ navigation }) {
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
+      <View style={styles.toolbar}>
+        <TouchableOpacity style={styles.backButton} onPress={() => navigation.canGoBack() && navigation.goBack()}>
+          <Text style={styles.backButtonText}>←</Text>
+        </TouchableOpacity>
+      </View>
       <Text style={styles.title}>Home risk dashboard</Text>
       <Text style={styles.subtitle}>Personalized weather alerts and home risk guidance for {userProfile.location}.</Text>
 
@@ -101,7 +107,7 @@ const styles = StyleSheet.create({
     elevation: 5,
   },
   cardLabel: {
-    color: '#1f4d7a',
+    color: Colors.brandRed,
     fontWeight: '700',
     fontSize: 12,
     textTransform: 'uppercase',
@@ -120,7 +126,7 @@ const styles = StyleSheet.create({
     marginBottom: 18,
   },
   detailButton: {
-    backgroundColor: '#1a73e8',
+    backgroundColor: Colors.brandRed,
     paddingVertical: 14,
     borderRadius: 16,
     alignItems: 'center',
@@ -145,7 +151,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   aiCard: {
-    backgroundColor: '#1a73e8',
+    backgroundColor: Colors.brandRed,
     borderRadius: 20,
     padding: 22,
     marginBottom: 16,
@@ -170,9 +176,24 @@ const styles = StyleSheet.create({
     borderColor: '#dfe3e8',
   },
   secondaryButtonText: {
-    color: '#1a73e8',
+    color: Colors.brandRed,
     fontSize: 15,
     fontWeight: '700',
+  },
+  toolbar: {
+    height: 44,
+    marginBottom: 8,
+  },
+  backButton: {
+    width: 44,
+    height: 44,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginLeft: -6,
+  },
+  backButtonText: {
+    color: Colors.brandRed,
+    fontSize: 22,
   },
   loadingText: {
     marginTop: 14,

@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { StyleSheet, Text, TouchableOpacity, View, ScrollView } from 'react-native';
 import { AppContext } from '../context/AppContext';
+import Colors from '../theme/colors';
 
 export default function AlertDetailScreen({ navigation, route }) {
   const { userProfile, activeAlerts } = useContext(AppContext);
@@ -34,6 +35,11 @@ export default function AlertDetailScreen({ navigation, route }) {
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
+      <View style={styles.toolbar}>
+        <TouchableOpacity style={styles.backButton} onPress={() => navigation.canGoBack() && navigation.goBack()}>
+          <Text style={styles.backButtonText}>←</Text>
+        </TouchableOpacity>
+      </View>
       <Text style={styles.title}>{alert.title}</Text>
       <Text style={styles.subtitle}>{alert.details}</Text>
 
@@ -92,7 +98,7 @@ const styles = StyleSheet.create({
   sectionHeading: {
     fontSize: 16,
     fontWeight: '700',
-    color: '#1a73e8',
+    color: Colors.brandRed,
     marginBottom: 10,
   },
   sectionText: {
@@ -106,7 +112,7 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   stepBullet: {
-    color: '#1a73e8',
+    color: Colors.brandRed,
     fontSize: 18,
     lineHeight: 24,
     marginRight: 10,
@@ -118,7 +124,7 @@ const styles = StyleSheet.create({
     lineHeight: 22,
   },
   primaryButton: {
-    backgroundColor: '#1a73e8',
+    backgroundColor: Colors.brandRed,
     borderRadius: 16,
     paddingVertical: 16,
     alignItems: 'center',
@@ -128,5 +134,20 @@ const styles = StyleSheet.create({
     color: '#ffffff',
     fontSize: 16,
     fontWeight: '700',
+  },
+  toolbar: {
+    height: 44,
+    marginBottom: 8,
+  },
+  backButton: {
+    width: 44,
+    height: 44,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginLeft: -6,
+  },
+  backButtonText: {
+    color: Colors.brandRed,
+    fontSize: 22,
   },
 });

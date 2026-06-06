@@ -8,6 +8,7 @@ import {
   View,
 } from 'react-native';
 import { AppContext } from '../context/AppContext';
+import Colors from '../theme/colors';
 import { fetchActiveAlerts } from '../services/weatherApi';
 
 const propertyOptions = ['House', 'Apartment', 'Townhome', 'Condo'];
@@ -135,8 +136,8 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   optionItemSelected: {
-    backgroundColor: '#1a73e8',
-    borderColor: '#1a73e8',
+    backgroundColor: Colors.brandRed,
+    borderColor: Colors.brandRed,
   },
   optionText: {
     color: '#102a43',
@@ -168,8 +169,8 @@ const styles = StyleSheet.create({
     marginRight: 14,
   },
   checkboxActive: {
-    backgroundColor: '#1a73e8',
-    borderColor: '#1a73e8',
+    backgroundColor: Colors.brandRed,
+    borderColor: Colors.brandRed,
   },
   checkboxLabel: {
     fontSize: 15,
@@ -177,7 +178,7 @@ const styles = StyleSheet.create({
   },
   primaryButton: {
     marginTop: 30,
-    backgroundColor: '#1a73e8',
+    backgroundColor: Colors.brandRed,
     borderRadius: 16,
     paddingVertical: 16,
     alignItems: 'center',
@@ -186,5 +187,20 @@ const styles = StyleSheet.create({
     color: '#ffffff',
     fontSize: 16,
     fontWeight: '700',
+  },
+  toolbar: {
+    height: 44,
+    marginBottom: 8,
+  },
+  backButton: {
+    width: 44,
+    height: 44,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginLeft: -6,
+  },
+  backButtonText: {
+    color: Colors.brandRed,
+    fontSize: 22,
   },
 });
