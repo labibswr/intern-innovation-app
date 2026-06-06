@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="390" height="844" viewBox="0 0 390 844" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg{fill:#f6f8fb}
+      .card{fill:#ffffff;stroke:#e6eef6;stroke-width:1;}
+      .title{font-family:Inter, Helvetica, Arial, sans-serif;font-size:20px;font-weight:700;fill:#102a43}
+      .subtitle{font-family:Inter, Helvetica, Arial, sans-serif;font-size:14px;fill:#334e68}
+      .time{font-family:Inter, Helvetica, Arial, sans-serif;font-size:12px;fill:#789;}
+      .pill{font-family:Inter, Helvetica, Arial, sans-serif;font-size:13px;font-weight:600;fill:#1a73e8}
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" x="0" y="0" width="390" height="844" rx="0"/>
+
+  <!-- Top bar -->
+  <rect x="0" y="0" width="390" height="110" fill="none"/>
+  <text x="24" y="64" class="title">Notifications</text>
+  <circle cx="350" cy="54" r="14" fill="#eaf3ff"/>
+  <text x="342" y="58" class="pill">⚙️</text>
+
+  <!-- Filter row -->
+  <rect x="24" y="100" width="342" height="44" rx="12" fill="#ffffff" stroke="#e6eef6"/>
+  <text x="40" y="128" class="pill">All</text>
+  <text x="100" y="128" class="subtitle">Unread</text>
+  <rect x="260" y="108" width="84" height="28" rx="14" fill="#1a73e8"/>
+  <text x="292" y="127" class="pill" style="fill:#fff;">Mark all read</text>
+
+  <!-- Notification list (sample items) -->
+  <!-- Item 1 (unread) -->
+  <g transform="translate(24,160)">
+    <rect class="card" x="0" y="0" width="342" height="84" rx="14"/>
+    <circle cx="28" cy="42" r="20" fill="#1a73e8"/>
+    <text x="60" y="36" class="title" style="font-size:16px;fill:#102a43;">Severe rainstorm</text>
+    <text x="60" y="56" class="subtitle">Flood risk in your area — take precautions.</text>
+    <text x="300" y="30" class="time">Now</text>
+    <circle cx="320" cy="54" r="6" fill="#1a73e8"/>
+  </g>
+
+  <!-- Item 2 -->
+  <g transform="translate(24,260)">
+    <rect class="card" x="0" y="0" width="342" height="76" rx="14"/>
+    <circle cx="28" cy="38" r="20" fill="#ffd7a6"/>
+    <text x="60" y="34" class="title" style="font-size:15px;">Power outage reported</text>
+    <text x="60" y="54" class="subtitle">Community outage detected near you.</text>
+    <text x="300" y="28" class="time">1h</text>
+  </g>
+
+  <!-- Item 3 -->
+  <g transform="translate(24,348)">
+    <rect class="card" x="0" y="0" width="342" height="76" rx="14"/>
+    <circle cx="28" cy="38" r="20" fill="#cfeee7"/>
+    <text x="60" y="34" class="title" style="font-size:15px;">Preventative tip</text>
+    <text x="60" y="54" class="subtitle">Clear gutters to reduce roof leaks.</text>
+    <text x="300" y="28" class="time">Yesterday</text>
+  </g>
+
+  <!-- Item 4 -->
+  <g transform="translate(24,436)">
+    <rect class="card" x="0" y="0" width="342" height="76" rx="14"/>
+    <circle cx="28" cy="38" r="20" fill="#fbd7d7"/>
+    <text x="60" y="34" class="title" style="font-size:15px;">Smoke alarm test</text>
+    <text x="60" y="54" class="subtitle">Routine reminder to test alarms monthly.</text>
+    <text x="300" y="28" class="time">2d</text>
+  </g>
+
+  <!-- Empty state hint at bottom -->
+  <g transform="translate(24,540)">
+    <rect x="0" y="0" width="342" height="120" rx="14" fill="#ffffff" stroke="#e6eef6"/>
+    <text x="30" y="48" class="title" style="font-size:16px;">No more notifications</text>
+    <text x="30" y="72" class="subtitle">You’re all caught up. Check prevention tips or upload evidence.</text>
+    <rect x="30" y="86" width="120" height="32" rx="12" fill="#1a73e8"/>
+    <text x="46" y="108" class="pill" style="fill:#fff; font-size:13px;">Prevention</text>
+  </g>
+
+  <!-- Bottom nav placeholder -->
+  <rect x="0" y="760" width="390" height="84" rx="12" fill="#fff" stroke="#eaeef6"/>
+  <text x="40" y="802" class="subtitle">Home</text>
+  <text x="140" y="802" class="pill">Alerts</text>
+  <text x="260" y="802" class="subtitle">Profile</text>
+
+</svg>
